@@ -1,0 +1,49 @@
+{
+  "item": {
+    "id": "com.kldxst.afterdoom",
+    "restype": "quick_app",
+    "name": "末日之后",
+    "description": "《末日之后》是小米手环 9 Pro 的废土走格探索游戏。在 6×8 的迷雾棋盘上向上走，搜刮物资、打退游荡者，把带回来的资源投进营地、升级设施，目标是活着抵达深度 7。探索、战斗、升级、每日委托都在手表本机完成，离线可玩；联网只用于首次激活、排行榜、营地和云存档。一局 3–8 分钟，随时退出可继续。",
+    "preview": [
+      "media/flow-map.png"
+    ],
+    "icon": "media/logo.png",
+    "cover": "media/cover.jpg",
+    "author": [
+      {
+        "name": "Kldxst",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "激活站",
+      "url": "https://active.kldxst.me/a/afterdoom",
+      "icon": "globe"
+    }
+  ],
+  "downloads": {
+    "xmb10p": {
+      "version": "1.0.9",
+      "file_name": "downloads/com.kldxst.afterdoom.release.1.0.9.rpk",
+      "versionCode": 109
+    },
+    "xmb9p": {
+      "version": "1.0.9",
+      "file_name": "downloads/com.kldxst.afterdoom.release.1.0.9.rpk",
+      "versionCode": 109
+    }
+  },
+  "ext": {
+    "enableAstroBoxCreatorFeatures": true,
+    "bundledResources": {
+      "required": [
+        {
+          "type": "plugin",
+          "id": "网桥 FetchBridge"
+        }
+      ]
+    }
+  }
+}
